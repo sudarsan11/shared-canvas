@@ -1,0 +1,43 @@
+
+
+                                    <!--Sidenav section-->
+
+
+<section>
+      <!--Canvas section-->
+
+
+      <div class="row" style=" margin-left: 10%;">
+
+
+          <div style="background-color: white;" >
+
+
+              <mat-list >
+                  <mat-list-item><i class="fa fa-pencil" aria-hidden="true"></i></mat-list-item>
+                  <mat-divider></mat-divider>
+                  <mat-list-item>Item 2</mat-list-item>
+                  <mat-divider></mat-divider>
+                  <mat-list-item>Item 3</mat-list-item>
+              </mat-list>
+
+
+          </div>
+
+
+          <div>
+
+              <canvas #myCanvas id="myCanvas" width="1000" height="1000"
+              class="canvas "
+              (mousedown)="onCanvasMouseDown($event)" (mousemove)="onCanvasMouseMove($event)" (mouseup)="onCanvasMouseUp($event)" >
+              </canvas>
+
+          </div>
+
+
+
+
+      </div>
+
+
+     </section>

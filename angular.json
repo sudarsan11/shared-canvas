@@ -23,9 +23,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./font-awesome-4.7.0/css/font-awesome.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/pusher-js/dist/web/pusher.min.js"]
           },
           "configurations": {
             "production": {
